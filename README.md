@@ -36,7 +36,7 @@ This project was designed and developed collaboratively by:
 
 ## How to View the Project
 1. Clone the repository to your local machine:
-   `git clone git@github.com:YOUR-USERNAME/YOUR-REPO-NAME.git`
+   `git clone git@github.com:Floyce/RoomFour.git`
 2. Navigate into the folder.
 3. Open `index.html` in your browser, or use the VS Code Live Server extension.
 
