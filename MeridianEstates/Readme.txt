@@ -1,6 +1,6 @@
 Thanks for downloading this template!
 
-Template Name: Meriadian Estates
+Template Name: Meridian Estates
 Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/

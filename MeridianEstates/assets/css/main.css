@@ -1,5 +1,5 @@
 /**
-* Template Name: Meriadian Estates
+* Template Name: Meridian Estates
 * Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
 * Updated: Aug 09 2024 with Bootstrap v5.3.3
 * Author: BootstrapMade.com
@@ -1756,7 +1756,7 @@ section,
 }
 
 .home-listings-heading h2,
-.why-meriadian-estates-intro h2 {
+.why-meridian-estates-intro h2 {
   color: var(--heading-color);
   font-size: clamp(28px, 4vw, 40px);
   font-weight: 800;
@@ -1764,7 +1764,7 @@ section,
 }
 
 .home-listings-heading p,
-.why-meriadian-estates-intro p {
+.why-meridian-estates-intro p {
   color: var(--default-color);
   margin: 0;
 }
@@ -1978,13 +1978,13 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Why Meriadian Estates
+# Why Meridian Estates
 --------------------------------------------------------------*/
-.why-meriadian-estates {
+.why-meridian-estates {
   background: var(--surface-color);
 }
 
-.why-meriadian-estates-intro {
+.why-meridian-estates-intro {
   margin: 0 auto 32px;
   max-width: 680px;
   text-align: center;

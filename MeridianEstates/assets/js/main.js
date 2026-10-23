@@ -1,5 +1,5 @@
 /**
-* Template Name: Meriadian Estates
+* Template Name: Meridian Estates
 * Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
 * Updated: Aug 09 2024 with Bootstrap v5.3.3
 * Author: BootstrapMade.com
@@ -421,7 +421,7 @@
   if (propertyPage) {
     const unitId = new URLSearchParams(window.location.search).get('unit') || 'syokimau-maisonette';
     const unit = propertyUnits[unitId] || propertyUnits['syokimau-maisonette'];
-    document.title = `${unit.title} | Meriadian Estates`;
+    document.title = `${unit.title} | Meridian Estates`;
 
     document.querySelectorAll('[data-property-title]').forEach((element) => {
       element.textContent = unit.title;
