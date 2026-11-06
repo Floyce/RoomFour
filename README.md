@@ -12,6 +12,7 @@ This project was designed and developed collaboratively by:
 * Metrine Regina
 * Ian Otieno
 * Mercyline Afwande
+* Joel Onyango
 
 ## Tech Stack
 * **HTML5** - Semantic structure
