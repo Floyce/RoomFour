@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Services - Meridian Estates{% endblock %}
+{% block body_class %}services-page{% endblock %}
+{% block body_attributes %}{% endblock %}
+{% block content %}
+<!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Services</h1>
+              <p class="mb-0">Expert guidance at every step, from finding the right home to making a confident investment.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="{% url 'index' %}">Home</a></li>
+            <li class="current">Services</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-activity"></i>
+              </div>
+              <a href="{% url 'service_details' %}" class="stretched-link">
+                <h3>Property Sales</h3>
+              </a>
+              <p>Find your next home or sell with confidence through our local market expertise and tailored support.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-broadcast"></i>
+              </div>
+              <a href="{% url 'service_details' %}" class="stretched-link">
+                <h3>Property Management</h3>
+              </a>
+              <p>Protect your investment with reliable tenant placement, rent collection and day-to-day property care.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-easel"></i>
+              </div>
+              <a href="{% url 'service_details' %}" class="stretched-link">
+                <h3>Real Estate Consultation</h3>
+              </a>
+              <p>Get clear, practical advice on buying, selling and investing in Nairobi's property market.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-bounding-box-circles"></i>
+              </div>
+              <a href="{% url 'service_details' %}" class="stretched-link">
+                <h3>Market Analysis</h3>
+              </a>
+              <p>Make informed decisions with up-to-date pricing insights and neighborhood-level property trends.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-house-check"></i>
+              </div>
+              <a href="{% url 'service_details' %}" class="stretched-link">
+                <h3>Property Valuation</h3>
+              </a>
+              <p>Understand what your property is worth with a considered assessment informed by local market activity.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-key"></i>
+              </div>
+              <a href="{% url 'service_details' %}" class="stretched-link">
+                <h3>Rental &amp; Leasing</h3>
+              </a>
+              <p>Connect with suitable tenants and make the rental process simpler with support from listing to lease.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+{% endblock %}

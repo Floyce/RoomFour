@@ -15,7 +15,8 @@ This project was designed and developed collaboratively by:
 * Joel Onyango
 
 ## Tech Stack
-* **HTML5** - Semantic structure
+* **Django** - Server-rendered pages, routing, and static-file configuration
+* **HTML5** - Semantic structure and Django templates
 * **CSS3** - Custom styling and theming
 * **Bootstrap 5** - Responsive grid, navbar, and UI components
 * **JavaScript** - Interactive elements (Scrollspy, image sliders, and form validation)
@@ -28,18 +29,21 @@ This project was designed and developed collaboratively by:
 * **Custom Theming:** Replaced the default Bootstrap template colors with a custom luxury green palette.
 
 ## Page Structure
-* `index.html` - Homepage (Hero section, Services, Featured Properties, Agents)
-* `about.html` - Agency story, mission, and stats
-* `services.html` - Detailed breakdown of real estate services
-* `properties.html` - Full catalog of 15-20 available properties
-* `agents.html` - Team directory
-* `contact.html` - Contact form and location map
+* `Listings/templates/index.html` - Homepage (Hero section, Services, Featured Properties, Agents)
+* `Listings/templates/about.html` - Agency story, mission, and stats
+* `Listings/templates/services.html` and `service-details.html` - Real estate services
+* `Listings/templates/properties.html` and `property-single.html` - Property catalog and detail
+* `Listings/templates/agents.html` - Team directory
+* `Listings/templates/contact.html` - Contact form and location map
+* `Listings/templates/starter-page.html` - Starter page
+* `Listings/templates/base.html` - Shared navigation, footer, and static assets
+* `static/assets/` - Template CSS, JavaScript, images, and vendor files
 
-## How to View the Project
-1. Clone the repository to your local machine:
-   `git clone git@github.com:Floyce/RoomFour.git`
-2. Navigate into the folder.
-3. Open `index.html` in your browser, or use the VS Code Live Server extension.
+## Run the Django Project
+1. Install dependencies: `python -m pip install -r requirements.txt`
+2. Apply migrations: `python manage.py migrate`
+3. Start the development server: `python manage.py runserver`
+4. Open the URL printed by Django (usually `http://127.0.0.1:8000/`).
 
 ---
 *Built as part of the eMobilis Web Development Matrix Class.*
